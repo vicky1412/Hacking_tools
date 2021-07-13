@@ -1,0 +1,16 @@
+Source: python-netfilterqueue
+Section: python
+Priority: optional
+Maintainer: Kali Developers <devel@kali.org>
+Build-Depends: debhelper (>= 9), python-all-dev, libnfnetlink-dev,
+ libnetfilter-queue-dev
+Standards-Version: 3.9.6
+Homepage: https://github.com/kti/python-netfilterqueue
+Vcs-Git: https://gitlab.com/kalilinux/packages/python-netfilterqueue.git
+Vcs-Browser: https://gitlab.com/kalilinux/packages/python-netfilterqueue
+
+Package: python-netfilterqueue
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Python bindings for libnetfilter_queue
+ This package provides Python bindings for libnetfilter_queue.

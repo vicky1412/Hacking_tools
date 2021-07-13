@@ -1,0 +1,5 @@
+python-netfilterqueue (0.6+git20150907-0kali1) kali-dev; urgency=low
+
+  * Initial packaging for kali
+
+ -- Sophie Brun <sophie@freexian.com>  Mon, 07 Sep 2015 11:49:38 +0200
